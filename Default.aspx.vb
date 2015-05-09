@@ -22,4 +22,26 @@ Partial Class _Default
         Dim earning As Decimal = 0
         TextBox2.Text = String.Format("{0:c}", earning)
     End Sub
+
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+
+        ask.Visible = False
+        answer.Visible = True
+        lbl_you.Text = tb_name.Text
+        If female.Checked Then lbl_mr.Text = ""
+        If male.Checked Then lbl_ms.Text = ""
+
+        Dim money As Decimal = Val(tb_earn.Text)
+        lbl_cur.Text = String.Format("{0:C}", money)
+        lbl_date.Text = Calendar1.SelectedDate.ToShortDateString
+        tb_name.Text = ""
+        tb_earn.Text = ""
+        female.Checked = False
+        male.Checked = False
+        Language1.SelectedValue = "auto"
+
+
+    End Sub
+    End Sub
 End Class

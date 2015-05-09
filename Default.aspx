@@ -11,10 +11,10 @@
 <body>
     <form id="form1" runat="server">
     <div>
- <h2>
+ <div id="question" runat="server">
 
      <asp:Label ID="welcome" runat="server" Text="<%$ Resources:Resource, welcome %>"></asp:Label>
-    </h2>
+   
        <br />
          <p>
             <asp:Label ID="Label1" runat="server" Text="Label" meta:resourceKey="Label1"></asp:Label>
@@ -39,8 +39,24 @@
         <br />
                 <asp:Button ID="Button1" runat="server" Text="Button" meta:resourceKey="Button1" />
          
-    
+    </div>
         </div>
+<div id="Response" runat="server">
+     <asp:Label ID="lbl_nice" runat="server" Text="Nice to meet you" meta:resourceKey="lbl_nice"></asp:Label>
+&nbsp;<asp:Label ID="lbl_mr" runat="server" Text="Mr" meta:resourceKey="lbl_mr"></asp:Label>
+        &nbsp;<asp:Label ID="lbl_ms" runat="server" Text="Ms" meta:resourceKey="lbl_ms"></asp:Label>
+&nbsp;<asp:Label ID="lbl_you" runat="server" Text="___" ></asp:Label>
+&nbsp;!<br />
+        <asp:Label ID="lbl_grad" runat="server" Text="When you graduate at" meta:resourceKey="lbl_grad"></asp:Label>
+&nbsp;<asp:Label ID="lbl_date" runat="server" Text="____"></asp:Label>
+&nbsp;,
+        <asp:Label ID="lbl_hope" runat="server" Text="I hope you can earn" meta:resourceKey="lbl_hope" ></asp:Label>
+&nbsp;<asp:Label ID="lbl_cur" runat="server">___</asp:Label>
+    &nbsp;<asp:Label ID="lbl_job" runat="server" Text="when you find the first job!" meta:resourceKey="lbl_job"></asp:Label>
+        
+        &nbsp;<asp:Label ID="lbl_visit" runat="server" Text="Please visit me on" meta:resourceKey="lbl_visit"></asp:Label>
+</div>
+
      </form>
 </body>
 </html>
