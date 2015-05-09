@@ -18,10 +18,7 @@ Partial Class _Default
     Protected Sub RadioButton2_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton2.CheckedChanged
         RadioButton1.Checked = False
     End Sub
-    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-        Dim earning As Decimal = 0
-        TextBox2.Text = String.Format("{0:c}", earning)
-    End Sub
+   
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
@@ -32,8 +29,8 @@ Partial Class _Default
         If RadioButton2.Checked Then Label9.Text = ""
         If RadioButton1.Checked Then Label8.Text = ""
 
-        Dim Cash As Decimal = Val(TextBox2.Text)
-        lbl_cur.Text = String.Format("{0:C}", Cash)
+        Dim earning As Decimal = Val(TextBox2.Text)
+        lbl_cur.Text = String.Format("{0:C}", earning)
         lbl_date.Text = Calendar1.SelectedDate.ToShortDateString
         TextBox1.Text = ""
         TextBox2.Text = ""
@@ -44,4 +41,8 @@ Partial Class _Default
 
     End Sub
 
+    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+        question.Visible = True
+        Response.Visible = False
+    End Sub
 End Class
