@@ -42,20 +42,19 @@
     </div>
         </div>
 <div id="Response" runat="server">
-     <asp:Label ID="lbl_nice" runat="server" Text="Nice to meet you" meta:resourceKey="lbl_nice"></asp:Label>
-&nbsp;<asp:Label ID="lbl_mr" runat="server" Text="Mr" meta:resourceKey="lbl_mr"></asp:Label>
-        &nbsp;<asp:Label ID="lbl_ms" runat="server" Text="Ms" meta:resourceKey="lbl_ms"></asp:Label>
-&nbsp;<asp:Label ID="lbl_you" runat="server" Text="___" ></asp:Label>
+     <asp:Label ID="Label6" runat="server" Text="Hey whats up" meta:resourceKey="Label6"></asp:Label>
+&nbsp;<asp:Label ID="Label8" runat="server" Text="Mr" meta:resourceKey="Label8"></asp:Label>
+        &nbsp;<asp:Label ID="Label9" runat="server" Text="Ms" meta:resourceKey="Label9"></asp:Label>
+&nbsp;<asp:Label ID="Label11" runat="server" Text="___" ></asp:Label>
 &nbsp;!<br />
-        <asp:Label ID="lbl_grad" runat="server" Text="When you graduate at" meta:resourceKey="lbl_grad"></asp:Label>
+        <asp:Label ID="Label10" runat="server" Text="When you graduate" meta:resourceKey="Label10"></asp:Label>
 &nbsp;<asp:Label ID="lbl_date" runat="server" Text="____"></asp:Label>
 &nbsp;,
-        <asp:Label ID="lbl_hope" runat="server" Text="I hope you can earn" meta:resourceKey="lbl_hope" ></asp:Label>
+        <asp:Label ID="lbl_7" runat="server" Text="hopefull you will earn" meta:resourceKey="lbl_7" ></asp:Label>
 &nbsp;<asp:Label ID="lbl_cur" runat="server">___</asp:Label>
-    &nbsp;<asp:Label ID="lbl_job" runat="server" Text="when you find the first job!" meta:resourceKey="lbl_job"></asp:Label>
+    &nbsp;<asp:Label ID="Label12" runat="server" Text="when you finally get a job" meta:resourceKey="Label12"></asp:Label>
         
-        &nbsp;<asp:Label ID="lbl_visit" runat="server" Text="Please visit me on" meta:resourceKey="lbl_visit"></asp:Label>
-</div>
+        &nbsp;</div>
 
      </form>
 </body>

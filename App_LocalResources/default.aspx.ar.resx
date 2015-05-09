@@ -120,6 +120,12 @@
   <data name="Button1.text" xml:space="preserve">
     <value>عرض</value>
   </data>
+  <data name="Label10.text" xml:space="preserve">
+    <value>عند التخرج</value>
+  </data>
+  <data name="Label12.text" xml:space="preserve">
+    <value>عند أخيرا الحصول على وظيفة</value>
+  </data>
   <data name="Label2.text" xml:space="preserve">
     <value>اسمي هو</value>
   </data>
@@ -129,11 +135,23 @@
   <data name="Label4.text" xml:space="preserve">
     <value>عندما أتخرج آمل أن يكسب</value>
   </data>
+  <data name="Label6.text" xml:space="preserve">
+    <value>مرحبا، كيف حالك</value>
+  </data>
+  <data name="Label8.text" xml:space="preserve">
+    <value>مدام.</value>
+  </data>
+  <data name="Label9.text" xml:space="preserve">
+    <value>السيد.</value>
+  </data>
   <data name="Lablel1.text" xml:space="preserve">
     <value>استخدام هذه اللغة.</value>
   </data>
   <data name="Lablel5.text" xml:space="preserve">
     <value>انا</value>
+  </data>
+  <data name="lbl_7.text" xml:space="preserve">
+    <value>نأمل سوف تكسب</value>
   </data>
   <data name="RadioButton1.text" xml:space="preserve">
     <value>ذكر</value>

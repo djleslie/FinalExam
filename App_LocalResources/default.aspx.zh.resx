@@ -123,6 +123,12 @@
   <data name="Label1.text" xml:space="preserve">
     <value>提交</value>
   </data>
+  <data name="Label10.text" xml:space="preserve">
+    <value>當你畢業</value>
+  </data>
+  <data name="Label12.text" xml:space="preserve">
+    <value>當你終於找到一份工作</value>
+  </data>
   <data name="Label2.text" xml:space="preserve">
     <value>我的名字是</value>
   </data>
@@ -134,6 +140,18 @@
   </data>
   <data name="Label5.text" xml:space="preserve">
     <value>我</value>
+  </data>
+  <data name="Label6.text" xml:space="preserve">
+    <value>嘿，怎麼了</value>
+  </data>
+  <data name="Label8.text" xml:space="preserve">
+    <value>夫人</value>
+  </data>
+  <data name="Label9.text" xml:space="preserve">
+    <value>先生</value>
+  </data>
+  <data name="lbl_7.text" xml:space="preserve">
+    <value>希望你會賺</value>
   </data>
   <data name="RadioButton1.text" xml:space="preserve">
     <value>男</value>

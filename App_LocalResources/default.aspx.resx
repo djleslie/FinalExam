@@ -123,6 +123,12 @@
   <data name="Label1.text" xml:space="preserve">
     <value>Use this Language.</value>
   </data>
+  <data name="Label10.text" xml:space="preserve">
+    <value>when you graduate</value>
+  </data>
+  <data name="Label12.text" xml:space="preserve">
+    <value>When you finally get a job</value>
+  </data>
   <data name="Label2.text" xml:space="preserve">
     <value>My name is </value>
   </data>
@@ -134,6 +140,18 @@
   </data>
   <data name="Label5.text" xml:space="preserve">
     <value>I am</value>
+  </data>
+  <data name="Label6.text" xml:space="preserve">
+    <value>Hey whats up</value>
+  </data>
+  <data name="Label8.text" xml:space="preserve">
+    <value>Ms.</value>
+  </data>
+  <data name="Label9.text" xml:space="preserve">
+    <value>Mr.</value>
+  </data>
+  <data name="lbl_7.text" xml:space="preserve">
+    <value>Hopefully you will earn</value>
   </data>
   <data name="RadioButton1.text" xml:space="preserve">
     <value>Male</value>
